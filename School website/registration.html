@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ps">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media_qureis.css" />
+    <link rel="stylesheet" href="favicon.ico" />
+    <title>نوم لیکنه</title>
+
+    <style>
+      .registrationform {
+        direction: rtl;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 4rem;
+      }
+      .form {
+        width: 50rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        box-shadow: 0 0 0.1rem gray;
+        padding: 2rem 4rem;
+        border-radius: 0.3rem;
+        margin-top: 2rem;
+      }
+      @media screen and (max-width: 936px) {
+        .secondaryheading {
+          font-size: 2rem;
+        }
+        #form {
+          width: 40rem;
+          padding: 2rem;
+        }
+      }
+
+      @media screen and (max-width: 836px) {
+        .secondaryheading {
+          font-size: 1.5rem;
+        }
+        #form {
+          width: 30rem;
+          padding: 2rem;
+        }
+        .childimg {
+          height: 16rem;
+          width: 16rem;
+        }
+      }
+
+      @media screen and (max-width: 736px) {
+        #form {
+          width: 27rem;
+          padding: 2rem;
+        }
+
+        .childimg {
+          height: 10rem;
+          width: 10rem;
+          margin-right: 0;
+        }
+      }
+
+      @media screen and (max-width: 706px) {
+        #form {
+          width: 25rem;
+          padding: 1rem;
+        }
+
+        .childimg {
+          height: 8rem;
+          width: 8rem;
+          margin-right: 0;
+        }
+      }
+
+      @media screen and (max-width: 686px) {
+        #form {
+          width: 40rem;
+          padding: 2rem;
+        }
+
+        .childimg {
+          height: 20rem;
+          width: 20rem;
+          margin-right: 0;
+        }
+      }
+      label {
+        display: block;
+        margin-top: 1rem;
+        font-weight: bold;
+      }
+      input {
+        background-color: rgb(211, 215, 219);
+        border: none;
+        outline: none;
+        height: 3rem;
+        width: 23rem;
+        border-radius: 0.3rem;
+        padding-right: 0.6rem;
+      }
+
+      .childimg {
+        height: 24rem;
+        width: 24rem;
+        margin-right: 10rem;
+      }
+      #submitBtn {
+        margin-top: 2rem;
+        height: 3rem;
+        width: 23rem;
+        background-color: rgb(75, 75, 182);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbare -->
+    <nav class="navbare">
+      <ul class="icons_pages_list">
+        <li class="icon_pages">
+          <i class="fa-solid fa-home icon" style="color: rgb(4, 36, 85)"></i>
+          <a href="home.html">اصلي صفحه</a>
+        </li>
+        <li class="icon_pages">
+          <i class="fa-solid fa-address-book icon"></i>
+          <a href="contact.html">اړيـــــــکه</a>
+        </li>
+        <li class="icon_pages">
+          <i
+            class="fa-sharp fa-solid fa-registered icon"
+            style="color: #5f0a0a"
+          ></i>
+          <a href="registration.html">نوم لیکـــنه</a>
+        </li>
+        <li class="icon_pages">
+          <i class="fa-sharp fa-solid fa-book icon" style="color: #431e15"></i>
+          <a href="library.html">کتابتـــــون</a>
+        </li>
+      </ul>
+
+      <a href="#" class="logo_text">
+        <img src="imgs/logo3.jpg" alt="logo" class="logo" />
+        <span class="logotext">زده کړه وکړئ</span>
+      </a>
+    </nav>
+
+    <!-- registrationform -->
+    <div class="registrationform">
+      <div class="form_img">
+        <form class="form" id="form">
+          <h2 class="secondaryheading">
+            تاسو کولای سئ چي په لاندي توګه نوم ليکنه وکړئ
+          </h2>
+
+          <div class="form-control">
+            <label for="نوم">نوم</label>
+            <input
+              type="text"
+              id="نوم"
+              class="input"
+              placeholder="نوم داخل کړئ"
+            />
+            <small></small>
+          </div>
+
+          <div class="form-control">
+            <label for="تخلص">تخلص</label>
+            <input
+              type="text"
+              id="تخلص"
+              class="input"
+              placeholder="تخلص داخل کړئ"
+            />
+            <small></small>
+          </div>
+
+          <div class="form-control">
+            <label for="ایمیل">ایمیل</label>
+            <input
+              type="text"
+              id="ایمیل"
+              class="input"
+              placeholder="ایمیل داخل کړئ"
+            />
+            <small></small>
+          </div>
+
+          <div class="form-control">
+            <label for="کود">کود</label>
+            <input
+              type="password"
+              id="کود"
+              maxlength="8"
+              class="input"
+              placeholder="کود داخل کړئ"
+            />
+            <small></small>
+          </div>
+
+          <button type="submit" id="submitBtn">داخل سئ</button>
+        </form>
+      </div>
+
+      <img src="imgs/20.jpg" alt="" class="childimg" />
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="contactme">
+        <h3 class="ternaryheading">
+          زما سره اړيـــــــکه ونيسئ
+          <div class="underline">
+            <span></span>
+          </div>
+        </h3>
+
+        <ul class="socialmedia_links">
+          <li class="link me"><i class="fab fa-twitter"></i></li>
+          <li class="link me"><i class="fab fa-instagram"></i></li>
+          <li class="link me"><i class="fab fa-telegram"></i></li>
+          <li class="link me"><i class="fab fa-youtube"></i></li>
+          <li class="link me"><i class="fab fa-facebook"></i></li>
+          <li class="link me">
+            <i class="fab fa-whatsapp"></i>
+          </li>
+        </ul>
+        <p class="email">ensan1403@gmail.com</p>
+      </div>
+
+      <hr class="horizantalline" />
+      <p class="copyright">
+        د انسان خصوصي ښـــــــوونځۍ ویبسایټ ټول حقوق زموږ سره خوندي دي
+      </p>
+    </footer>
+  </body>
+</html>

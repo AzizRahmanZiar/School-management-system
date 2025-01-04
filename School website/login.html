@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ps">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media_qureis.css" />
+    <link rel="stylesheet" href="favicon.ico" />
+    <title>داخلیدل</title>
+
+    <style>
+      .loginform {
+        direction: rtl;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 0.2em gray;
+        padding: 1em 2em;
+        border-radius: 1em;
+      }
+      .heading {
+        text-align: center;
+        font-size: 2.5rem;
+      }
+      label {
+        margin-top: 1em;
+        font-size: 2rem;
+      }
+      input {
+        border: 0.04rem solid gray;
+        width: 22rem;
+        height: 2.5rem;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        padding-left: 1rem;
+        opacity: 0.6;
+        padding: 0 0.5em;
+        outline: none;
+      }
+
+      .form-control {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .form-control.success input {
+        border: 0.2rem solid green;
+      }
+
+      .form-control.error input {
+        border: 0.2rem solid rgb(220, 36, 23);
+      }
+
+      .form-control small {
+        color: rgb(220, 36, 23);
+      }
+
+      .form-control small {
+        visibility: hidden;
+      }
+      .form-control.error small {
+        visibility: visible;
+      }
+      .already {
+        margin: 1rem 0;
+        font-size: 1.5rem;
+      }
+      #submitBtn {
+        height: 2.5rem;
+        border-radius: 0.3rem;
+        font-size: 1.5rem;
+        width: 22rem;
+        background-color: rgb(83, 83, 227);
+        color: rgb(255, 255, 255);
+        outline: none;
+        border: none;
+      }
+      #submitBtn:hover {
+        background-color: rgb(29, 29, 136);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbare -->
+    <nav class="navbare">
+      <ul class="icons_pages_list">
+        <li class="icon_pages">
+          <i class="fa-solid fa-home icon" style="color: rgb(4, 36, 85)"></i>
+          <a href="home.html">اصلي صفحه</a>
+        </li>
+        <li class="icon_pages">
+          <i class="fa-solid fa-address-book icon"></i>
+          <a href="contact.html">اړيـــــــکه</a>
+        </li>
+        <li class="icon_pages">
+          <i
+            class="fa-sharp fa-solid fa-registered icon"
+            style="color: #5f0a0a"
+          ></i>
+          <a href="registration.html">نوم لیکـــنه</a>
+        </li>
+        <li class="icon_pages">
+          <i class="fa-sharp fa-solid fa-book icon" style="color: #431e15"></i>
+          <a href="library.html">کتابتـــــون</a>
+        </li>
+      </ul>
+
+      <a href="#" class="logo_text">
+        <img src="imgs/logo3.jpg" alt="logo" class="logo" />
+        <span class="logotext">زده کړه وکړئ</span>
+      </a>
+    </nav>
+
+    <!-- log in form -->
+    <div class="loginform">
+      <form action="" id="form">
+        <h3 class="heading">داخلیدل</h3>
+        <div class="form-control">
+          <label for="ایمیل">ایمیل</label>
+          <input
+            type="text"
+            id="ایمیل"
+            class="input"
+            placeholder="ایمیل داخل کړئ"
+          />
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <label for="کود">کود</label>
+          <input
+            type="password"
+            id="کود"
+            maxlength="8"
+            placeholder="کود داخل کړئ"
+          />
+          <small></small>
+        </div>
+        <p class="already">آکاونټ نه لری؟ <a href="Sign_up.html">جوړکړئ</a></p>
+        <button type="submit" id="submitBtn">داخل سئ</button>
+      </form>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="contactme">
+        <h3 class="ternaryheading">
+          زما سره اړيـــــــکه ونيسئ
+          <div class="underline">
+            <span></span>
+          </div>
+        </h3>
+        <ul class="socialmedia_links">
+          <li class="link me"><i class="fab fa-twitter"></i></li>
+          <li class="link me"><i class="fab fa-instagram"></i></li>
+          <li class="link me"><i class="fab fa-telegram"></i></li>
+          <li class="link me"><i class="fab fa-youtube"></i></li>
+          <li class="link me"><i class="fab fa-facebook"></i></li>
+          <li class="link me">
+            <i class="fab fa-whatsapp"></i>
+          </li>
+        </ul>
+        <p class="email">ensan1403@gmail.com</p>
+      </div>
+
+      <hr class="horizantalline" />
+      <p class="copyright">
+        د انسان خصوصي ښـــــــوونځۍ ویبسایټ ټول حقوق زموږ سره خوندي دي
+      </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script defer>
+      const form = document.getElementById("form");
+      const email = document.getElementById("ایمیل");
+      const password = document.getElementById("کود");
+
+      function showError(input, message) {
+        const formControl = input.parentElement;
+        formControl.className = "form-control error";
+        const small = formControl.querySelector("small");
+        small.innerText = message;
+      }
+
+      function showSuccess(input) {
+        const formControl = input.parentElement;
+        formControl.className = "form-control success";
+      }
+
+      function checkEmail(input) {
+        const re =
+          /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+        if (re.test(input.value.trim())) {
+          showSuccess(input);
+        } else {
+          showError(input, "ایمیل اعتبار نه لري");
+        }
+      }
+
+      function checkRequired(inputArr) {
+        inputArr.forEach(function (input) {
+          if (input.value.trim() === "") {
+            showError(input, `${input.id} باید ولیکئ`);
+          } else {
+            showSuccess(input);
+          }
+        });
+      }
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        checkRequired([email, password]);
+        checkEmail(email);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,373 @@
+@media screen and (max-width: 1256px) {
+  .teachercard {
+    width: 24rem;
+    height: auto;
+    padding: 3rem;
+    margin: 1.5rem;
+  }
+  .studentcard {
+    height: 20rem;
+    width: 31rem;
+    margin: 2rem;
+    text-align: justify;
+  }
+  .teachercard_1 {
+    width: 100rem;
+    height: 26rem;
+    text-align: justify;
+  }
+  .second {
+    padding: 0 0 0 10rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .heroimg {
+    width: 35rem;
+    margin: 2rem 3rem;
+  }
+  .second {
+    padding: 0 0 0 8rem;
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 1177px) {
+  .teachercard {
+    width: 40rem;
+    height: auto;
+    padding: 2.5rem 1rem;
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 1166px) {
+  .studentcard {
+    height: 20rem;
+    width: 30rem;
+    margin: 2rem;
+  }
+  .teachercard_1 {
+    width: 100rem;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .studentcard {
+    height: 20rem;
+    width: 25rem;
+    margin: 4rem;
+  }
+  .teachercard_1 {
+    width: 92rem;
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 1107px) {
+  .studentcard {
+    height: 20rem;
+    width: 26rem;
+    margin: 1rem;
+  }
+  .teachercard_1 {
+    width: 85rem;
+  }
+  .second {
+    padding: 0 0 0 8rem;
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (max-width: 1096px) {
+  .result {
+    height: 30rem;
+    width: 20rem;
+  }
+  .result h3 {
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+  }
+  .result img {
+    height: 10rem;
+    width: 9rem;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .heroimg {
+    width: 30rem;
+    margin: 2rem;
+  }
+  .second {
+    padding: 0 0 0 7rem;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .teachercard {
+    width: 30rem;
+    height: auto;
+    padding: 3rem 0;
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 957px) {
+  .studentcard {
+    height: 20rem;
+    width: 25rem;
+    margin: 1rem;
+  }
+  .teachercard_1 {
+    width: 80rem;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .studentcard {
+    height: 25rem;
+    width: 24rem;
+    margin: 1rem;
+  }
+  .teachercard_1 {
+    width: 78rem;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .studentcard {
+    height: 27rem;
+    width: 23rem;
+    margin: 1rem;
+  }
+  .teachercard_1 {
+    width: 76rem;
+    height: 32rem;
+  }
+  .second {
+    padding: 0 0 0 6rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 876px) {
+  .studentcard {
+    width: 22rem;
+    height: 29rem;
+  }
+  .teachercard_1 {
+    width: 74rem;
+  }
+}
+
+@media screen and (max-width: 838px) {
+  .studentcard {
+    width: 20rem;
+    height: 32rem;
+  }
+  .teachercard_1 {
+    width: 73rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .studentcard {
+    width: 18rem;
+    height: 34rem;
+  }
+  .teachercard_1 {
+    width: 72rem;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .studentcard {
+    width: 18rem;
+    height: 36rem;
+  }
+  .teachercard_1 {
+    width: 65rem;
+    height: 38rem;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .studentcard {
+    margin: 2rem 0;
+  }
+  .teachercard {
+    width: 25rem;
+    height: auto;
+    padding: 2.5rem 0;
+    margin: 2rem;
+  }
+  .second {
+    padding: 0 0 0 4rem;
+  }
+}
+
+@media screen and (max-width: 714px) {
+  .studentcard {
+    width: 55rem;
+    height: 20rem;
+  }
+  .teachercard_1 {
+    width: 65rem;
+    height: 38rem;
+  }
+  .second {
+    padding: 0 0 0 3rem;
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .teachercard_1 {
+    width: 60rem;
+    height: 38rem;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .teachercard {
+    width: 20rem;
+    height: auto;
+    padding: 3rem 0;
+    margin: 2rem;
+  }
+  .result {
+    height: 30rem;
+    width: 27rem;
+  }
+  .result h3 {
+    margin-bottom: 1rem;
+  }
+  .result img {
+    height: 15rem;
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .primaryheading {
+    margin-right: 1rem;
+    font-size: 2.5rem;
+  }
+  .heroimg {
+    width: 25rem;
+    height: 25rem;
+    margin: 2rem;
+  }
+
+  #bookNameInput,
+  #searchButton {
+    height: 3rem;
+  }
+  #bookNameInput {
+    width: 40rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .teachercard_1 {
+    width: 55rem;
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .teachercard {
+    width: 18rem;
+    height: auto;
+    padding: 3rem 0;
+    margin: 2rem;
+  }
+  .teachercard_1 {
+    width: 50rem;
+    height: 50rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .primaryheading {
+    margin-right: 1rem;
+    font-size: 2rem;
+  }
+  .secondaryheading {
+    margin-top: 3rem;
+  }
+  .show-modal {
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 1rem;
+    margin: 3rem 2rem;
+  }
+  .heroimg {
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+  }
+  .link .fab {
+    font-size: 1.5rem;
+  }
+  .icon_pages a {
+    font-size: 1.3rem;
+  }
+  .icons_pages_list li {
+    list-style: none;
+  }
+  .icon {
+    font-size: 1rem;
+  }
+  .logo {
+    height: 2.5rem;
+  }
+  .textextra {
+    width: 6rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+  }
+  .copyright {
+    font-size: 1.5rem;
+  }
+}
+
+/* form validatiom */
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control.success input {
+  border: 0.2rem solid green;
+}
+
+.form-control.error input {
+  border: 0.2rem solid rgb(220, 36, 23);
+}
+
+.form-control small {
+  color: rgb(220, 36, 23);
+}
+
+.form-control small {
+  visibility: hidden;
+}
+.form-control.error small {
+  visibility: visible;
+}
+
+@media screen and (max-width: 538px) {
+  label #btn {
+    display: block;
+  }
+  .teachercard {
+    width: 30rem;
+    height: auto;
+    padding: 3rem 0;
+    margin: 2rem;
+  }
+}
