@@ -22,7 +22,7 @@
       <ul class="icons_pages_list">
         <li class="icon_pages">
           <i class="fa-solid fa-home icon" style="color: rgb(4, 36, 85)"></i>
-          <a href="home.html">اصلي صفحه</a>
+          <a href="index.html">اصلي صفحه</a>
         </li>
         <li class="icon_pages">
           <i class="fa-solid fa-address-book icon"></i>
@@ -92,22 +92,22 @@
       // Function to perform the book search
       function searchBooks() {
         // Clear previous results
-        const resultsContainer = document.getElementById("resultsContainer");
-        resultsContainer.innerHTML = "";
+        const resultsContainer = document.getElementById('resultsContainer');
+        resultsContainer.innerHTML = '';
 
         // Get the book name from the input field
-        const bookName = document.getElementById("bookNameInput").value;
+        const bookName = document.getElementById('bookNameInput').value;
 
         // API request
         const request = new XMLHttpRequest();
         request.open(
-          "GET",
+          'GET',
           `https://openlibrary.org/search.json?q=${encodeURIComponent(
             bookName
           )}`
         );
         request.send();
-        request.addEventListener("load", function () {
+        request.addEventListener('load', function () {
           const response = JSON.parse(this.responseText);
           const docs = response.docs;
 
@@ -116,12 +116,12 @@
             const bookName = book.title;
             const authorName = book.author_name
               ? book.author_name[0]
-              : "Unknown";
-            const publishYear = book.first_publish_year || "Unknown";
+              : 'Unknown';
+            const publishYear = book.first_publish_year || 'Unknown';
             const imageUrl = `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`;
 
-            const resultElement = document.createElement("div");
-            resultElement.classList.add("result");
+            const resultElement = document.createElement('div');
+            resultElement.classList.add('result');
             resultElement.innerHTML = `
         <h3>${bookName}</h3>
         <img src="${imageUrl}" alt="Book Cover">
@@ -135,8 +135,8 @@
       }
 
       // Attach the searchBooks function to the button click event
-      const searchButton = document.getElementById("searchButton");
-      searchButton.addEventListener("click", searchBooks);
+      const searchButton = document.getElementById('searchButton');
+      searchButton.addEventListener('click', searchBooks);
     </script>
   </body>
 </html>
