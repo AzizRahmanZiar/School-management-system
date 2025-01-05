@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media_qureis.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <title>انسان خصوصي ښـــــــوونځۍ</title>
+    <title>زیار خصوصي ښـــــــوونځۍ</title>
   </head>
   <body>
     <!--1.part header-->
@@ -21,7 +21,7 @@
       <div class="signup_line_heading">
         <button class="signup"><a href="Sign_up.html">Sign up</a></button>
         <hr class="verticalline" />
-        <h1 class="primaryheading">انسان خصوصي ښـــــــوونځۍ</h1>
+        <h1 class="primaryheading">زیار خصوصي ښـــــــوونځۍ</h1>
       </div>
 
       <ul class="socialmedia_links">
@@ -247,7 +247,7 @@
 
       <hr class="horizantalline" />
       <p class="copyright">
-        د انسان خصوصي ښـــــــوونځۍ ویبسایټ ټول حقوق زموږ سره خوندي دي
+        د زیار خصوصي ښـــــــوونځۍ ویبسایټ ټول حقوق زموږ سره خوندي دي
       </p>
     </footer>
 
@@ -262,7 +262,7 @@
         if (load > 30) {
           clearInterval(interval);
         }
-        document.querySelector("body").style.filter = `blur(${scale(
+        document.querySelector('body').style.filter = `blur(${scale(
           load,
           0,
           30,
@@ -284,30 +284,30 @@
       // }, 5000);
 
       // extra modal
-      const modal = document.querySelector(".modal");
-      const overlay = document.querySelector(".overlay");
-      const btnCloseModal = document.querySelector(".close-modal");
-      const btnsOpenModal = document.querySelector(".show-modal");
-      const nebarBtn = document.querySelector(".fa-bars");
-      nebarBtn.addEventListener("click", () => {
-        document.querySelector(".showNebar").classList.toggle("active");
+      const modal = document.querySelector('.modal');
+      const overlay = document.querySelector('.overlay');
+      const btnCloseModal = document.querySelector('.close-modal');
+      const btnsOpenModal = document.querySelector('.show-modal');
+      const nebarBtn = document.querySelector('.fa-bars');
+      nebarBtn.addEventListener('click', () => {
+        document.querySelector('.showNebar').classList.toggle('active');
       });
       const openModal = function () {
-        modal.classList.remove("hidden");
-        overlay.classList.remove("hidden");
+        modal.classList.remove('hidden');
+        overlay.classList.remove('hidden');
       };
       const closeModal = function () {
-        modal.classList.add("hidden");
-        overlay.classList.add("hidden");
+        modal.classList.add('hidden');
+        overlay.classList.add('hidden');
       };
 
-      btnsOpenModal.addEventListener("click", openModal);
+      btnsOpenModal.addEventListener('click', openModal);
 
-      btnCloseModal.addEventListener("click", closeModal);
-      overlay.addEventListener("click", closeModal);
+      btnCloseModal.addEventListener('click', closeModal);
+      overlay.addEventListener('click', closeModal);
 
-      document.addEventListener("keydown", function (ev) {
-        if (ev.key === "Escape" && !modal.classList.contains("hidden")) {
+      document.addEventListener('keydown', function (ev) {
+        if (ev.key === 'Escape' && !modal.classList.contains('hidden')) {
           closeModal();
         }
       });
